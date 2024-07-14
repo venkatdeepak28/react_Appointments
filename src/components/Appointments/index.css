@@ -1,0 +1,77 @@
+/* Write your CSS here */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.bg-container {
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner-container {
+  background-color: white;
+  width: 80vw;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.date-container {
+  margin-left: 48px;
+}
+.list-prop {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap
+}
+.horizontal-el {
+  margin-left: 24px;
+  margin-right: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.main-heading {
+  color: #171f46;
+  font-family: 'Roboto';
+  margin-top: 48px;
+  margin-left: 48px;
+}
+.custom-btn {
+  margin-top: 24px;
+  padding: 10px 10px 8px 8px;
+  border: 0;
+  color: white;
+  background-color: #8b5cf6;
+}
+.input-el {
+  padding: 8px;
+  width: 150px;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+.logo {
+  width: 35vw;
+  height: 25vh;
+  margin-right: 48px;
+}
+.list-heading {
+  color: #171f46;
+  font-size: 22px;
+  font-family: 'Roboto';
+}
+.star-btn {
+  border-radius: 10px;
+  border: 2px solid blue;
+  background-color: transparent;
+  color: blue;
+  padding-top: 0;
+}
+.heading-el {
+  display: flex;
+  justify-content: space-between;
+}

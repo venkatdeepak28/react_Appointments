@@ -1,0 +1,21 @@
+/* Write your CSS here */
+
+.appointment-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0;
+  flex-wrap: wrap;
+}
+.star-el {
+  height: 25px;
+}
+.list-btn {
+  border: 0;
+  background-color: transparent;
+}
+.list-el {
+  border: 1px solid #b5b7c4;
+  padding-left: 12px;
+  padding-right: 12px;
+}
